@@ -1,0 +1,102 @@
+/* author name -sohan paliyal*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: arial,sans-serif;
+}
+#wrapper{
+	border:solid;
+}
+#header::after{
+	content:"";
+	display: block;
+	clear: both;
+	
+}
+#logo{
+	width: 10%;
+	float:left;
+}
+#search-engine::after{
+	content:"";
+	display:block;
+	clear: both;
+}
+#search-engine{
+	border: 1px solid #dfe1e5;
+	width:45%;
+	float: left;
+	border-radius: 24px;
+	margin-top: 25px;
+}
+#search-box{
+	width:90%;
+	float:left;
+}
+#search{
+	border:solid #00000000;
+	height: 48px;
+	background-color: transparent;
+	width: 550px;
+	font-size: 20px;
+}
+#icon{
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+#button-box{
+	width: 20%;
+	float: right;
+	margin-top:30px;
+}
+#sign-in-button{
+	width: 90px;
+	height: 40px;
+	border-radius: 7px;
+	background-color: #4d79ff;
+	font-size: 17px;
+	color: white;
+	margin-left: 140px;
+}
+#nav-bar::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+#nav-bar{
+	margin-left: 140px;
+	margin-right: 610px;
+	}
+.nav-item{
+	color: #5f6368;
+	width: 65px;
+	float:left;
+}
+.nav-item:nth-child(7){
+	float: right;
+}
+.nav-item:nth-child(8){
+	float: right;
+}
+#result-count{
+margin:10px 610px 0px 140px;
+color:#70757a;
+}
+.result-container{
+	margin-top: 30px;
+}
+#key-words{
+margin:10px 610px 0px 140px;
+color: #3C4043;
+	font-size: 14px;
+	font-style: normal;
+}
+#main-result{
+  margin:10px 610px 0px 140px;
+	font-size: 25px;
+	color: #609;
+}
+#discription{
+  margin:10px 610px 0px 140px;
+}

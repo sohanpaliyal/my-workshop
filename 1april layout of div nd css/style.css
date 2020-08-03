@@ -1,0 +1,72 @@
+/*author name is-sohan paliyal nd this is a april 1st layout*/
+*{
+   margin:0px;
+   padding:0px;
+}
+#wrapper{
+   border:solid blue;
+}
+#header{
+   height:100px;
+   width:100%;
+   border:solid red;
+}
+.nav{
+   height:100px;
+   width:18.9%;
+   float:left;
+   background-color: #800000;
+   margin-left:10px;
+   }
+h1{
+   text-align:center;
+   text-decoration: underline;
+   color:white;
+   text-transform:capitalize;
+   margin-top:20px;
+}
+#necker{
+   height: 200px;
+   width: 100%;
+   background-color: red;
+}
+#circle-container{
+   height: 300px;
+   width: 90%;
+   background-color: yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   
+}
+.circle{
+   height: 300px;
+   width:300px;
+   background-color:burlywood;
+   float:left;
+   margin-left: 80px;
+   border-radius: 150px
+}
+#box-container::after{
+   content:'';
+   display: block;
+   clear:both;
+}
+#box-container{
+   width: 90%;
+   background-color:aqua;
+   margin-left: 80px;
+   margin-top:30px;
+}
+.box{
+   height:150px;
+   width:350px;
+   background-color:black;
+   float:left;
+   margin:25px;
+}
+#footer{
+   width: 100%;
+   height: 100px;
+   background-color:blueviolet;
+   margin-top:20px;
+}

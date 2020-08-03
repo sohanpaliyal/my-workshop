@@ -1,0 +1,49 @@
+/*author name-sohan paliyal
+10april*/
+*{
+  margin:0px;
+  padding:0px;
+}
+#wrapper{
+  border:solid;
+}
+#header{
+  height:100px;
+  width:100%;
+  background-color:#9966ff;
+}
+#logo{
+  height: 90px;
+  width: 150px;
+  background-color: orange;
+}
+#navbar{
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: yellow;
+  }
+#panel-container{margin-top: 5px;}
+#panel-container::after{
+  content:'';
+  display:block;
+  clear:both;
+   }
+#left-panel{
+  height: 500px;
+  width:35%;
+  background-color:#66ffff;
+  float:left;
+}
+#right-panel{
+  height: 500px;
+  width: 65%;
+  background-color:#ff3399;
+  float:left;
+}
+#footer{
+  height: 100px;
+  width: 100%;
+  background-color:green;
+  margin-top: 5px;
+}

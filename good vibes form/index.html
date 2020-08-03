@@ -1,0 +1,84 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+	<title>Good vibes form</title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+	<div id='wrapper'>
+		<h1 id='heading'>Good Vibes Form</h1>
+		<fieldset>
+			<div>
+				<h2 id='subheading'>Tell us something positive that happened to you today.</h2>
+			</div>
+			<div>
+				<label for='name'>Name:</label>
+			</div>
+			<div>
+				<input type='text' placeholder='Enter your name' id='name'/>
+			</div>
+			<div>
+				<label for='Email'>Email:</label>
+			</div>
+			<div>
+				<input type='text' placeholder='Enter your email address' id='email'/>
+			</div>
+			<div>
+				<label for='rating'>On a scale of 1-10,how good was it?:</label>
+			</div>
+			<div>
+				<input type='number' placeholder='Enter a number between 1 and 10' id='rating'/>
+			</div>
+			<div>
+				Where did it happen?
+			</div>
+			<div>
+				<select name='Where did it happen?'>
+			</div>
+			<div>
+					<option value='At home' selected/>At home
+					<option value='On my commute'/>On my commute
+					<option value='At work'/>At work	
+					<option value='On the street'/>On the street
+					<option value='Other'/>Other
+				</select>			
+			</div>
+			<div id='radiocontainer'>
+				<div>
+					At what time of day did it happen?
+				</div>
+				<div class='radiobutton'> 
+					<input type='radio' name='daytime' id='morning' value='morning'/>
+					<label for='morning'>Morning</label>
+				</div>
+				<div class='radiobutton'>
+					<input type='radio'  name='daytime' id='afternoon' value='afternoon'/>
+					<label for='afternoon'>afternoon</label>
+				</div>
+				<div class='radiobutton'>
+					<input type='radio'  name='daytime' id='Evening' value='evening'/>
+					<label for='Evening'>Evening</label>
+				</div>
+			</div>
+			<div>	
+				What emotions did you experience?(Select all that apply)<br>
+			</div>
+			<div id='checkbox'>
+				<input type='checkbox' name='' value='Excited'>Excited<br> 
+				<input type='checkbox' name='' value='Humbled'>Humbled<br>
+				<input type='checkbox' name='' value='Elated'>Elated<br>
+				<input type='checkbox' name='' value='Loved' checked>Loved<br>
+				<input type='checkbox' name='' value='Enthusiastic' checked>Enthusiastic<br> 
+			</div>
+			<div>
+				<lebel for='pleasedescribeyourpositiveexperience'>please describe your positive experience</lebel>
+			</div>
+			<div>
+				<textarea placeholder='Enter your experience here...' id='pleasedescribeyourpositiveexperience'></textarea>
+			</div>
+			<div><input id='submitbutton' type='submit' value='Submit'/></div>
+		</fieldset>
+
+	</div>
+</body>
+</html>

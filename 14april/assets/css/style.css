@@ -1,0 +1,72 @@
+/*author name-sohan paliyal nd 14 april*/
+*{
+	margin:0px;
+	padding:0px;
+}
+#wrapper{
+	
+}
+#header::after{
+	content:"";
+	display:block;
+	clear: both;
+}
+#header{
+}
+#logo{
+	height: 100px;
+	width:19%;
+	background-color:	 #ff4d4d;
+	margin-top: 10px;
+	float:left;
+}
+#navbar{
+	height: 100px;
+	width: 80%;
+	background-color: #75a3a3;
+	margin-top: 10px;
+	margin-left:10px;
+	float:left;
+}
+#content::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+#content{
+}
+#left-panel{
+	height:600px;
+	width: 19%;
+	background-color:#00ffff;
+	float:left;
+	margin-top: 5px;
+}
+#grid-wrap{
+	width:80%;
+	float: left;
+}
+.row::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.row{
+	margin-left: 5px;
+}
+#big-box{
+	height: 300px;
+	width:350px;
+	background-color: #66ff33;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+.grid{
+	height:145px;
+	width: 170px;
+	background-color:#c4ff4d;
+	float:left;
+	margin-left:8px;
+	margin-top: 7px;
+}

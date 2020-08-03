@@ -1,0 +1,13 @@
+/*author name-sohan paliyal and this is a survey form*/
+*{
+margin:0px;
+padding:0px;}
+
+body{
+  font-family:'Anaheim';
+  font-size: 1.2em;
+}
+button{
+  margin:.5em;
+  background-color: red;
+}

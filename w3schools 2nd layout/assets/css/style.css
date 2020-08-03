@@ -1,0 +1,225 @@
+/* author-name-sohan paliyal
+and this is w3schools layout 2*/
+
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  font-family: "Times New Roman", Georgia, Serif;
+}
+#wrapper{
+}
+#nav-bar::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#nav-bar{
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+  
+}
+.navs{
+  float: left;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  font-size:11px;
+  margin-left: 13px;
+  font-family: "Times New Roman", Georgia, Serif; 
+  padding: 8px 16px;
+}
+.navs:nth-child(2){
+  float: right;
+}
+.navs:nth-child(3){
+  float: right;
+}
+.navs:nth-child(4){
+  float: right;
+}
+#header-photo-div{
+position: relative;
+}
+
+#photo-of-hamburger{
+  width: 100%;;
+}
+#logo-text{
+  letter-spacing: 4px;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 30px;
+  font-family: "Playfair Display";
+  font-size: 22px !important;
+  opacity: 0.60;
+}
+#first-panel-container::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#first-panel-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+#first-left-panel{
+  float:left;
+  width: 49%;
+}
+#first-right-panel{
+  float:left;
+  width: 49%;
+  
+  
+}
+#first-left-panel-photo{
+  width: 300px;
+  border-radius:2px;
+}
+.heading{
+  font-size: 22px;
+  margin: 10px 0;
+  line-height: 1.5;
+  text-align: center !important;
+  font-family: "Playfair Display";
+letter-spacing: 4px;
+  font-weight: 400;
+}
+#tradition-since{
+  text-align: center !important;
+  font-family: "Playfair Display";
+letter-spacing: 4px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 11px;
+   margin: 10px 0;
+}
+#catering-summery-1{
+   margin: 10px 0;
+  font-size: 11px;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+}
+#catering-summery-2{
+   margin: 10px 0;
+  font-size: 11px;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+  color: #757575 !important;
+}
+hr{
+  border:0px;
+  border-top: 1px solid #eee;
+margin: 20px 0;
+}
+#second-panel-container::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#second-panel-container{
+  margin-left: auto;
+  margin-right:auto;
+  width:70%;
+}
+
+#second-left-panel{
+  float: left;
+  width:49%;
+  }
+#second-right-panel{
+  float: left;
+   width:49%;
+  
+}
+.second-panel-photo{
+  width:300px;
+  border-radius: 2px;
+}
+.menu-heading{
+  font-family: "Playfair Display";
+letter-spacing: 4px;
+  font-weight: 400;
+margin: 10px 0;
+  font-size:13px;
+  line-height: 1.5;
+  }
+.menu-subheading{
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 10px;
+  color: #757575 !important;
+  margin-bottom: 30px;
+}
+#bottom-content{
+  margin-left:auto;
+  margin-right: auto;
+  width: 70%;
+
+  
+}
+.form-heading{
+  font-family: "Playfair Display";
+letter-spacing: 4px;
+ font-weight: 400;
+margin: 10px 0;
+  font-size: 22px;
+  
+}
+.form-paras{
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+  font-size: 9px;
+  margin:15px 0px;
+}
+#form-second-para{
+  font-weight: bolder;
+  color: #607d8b !important;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 11px;
+}
+.form-user-details{
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 95%;
+  font-size:8px;
+  margin-bottom: 10px;
+  
+}
+.form-user-submit-button:hover{
+  color: #000 !important;
+background-color: #ccc !important; 
+}
+.form-user-submit-button{
+  border-style: none;
+padding: 0;
+  border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+  text-align: center;
+cursor: pointer;  
+  font-size: 11px;
+  line-height: 1.5;
+
+}
+#footer{
+  color: #000 !important;
+background-color: #f1f1f1 !important;
+  padding-top: 32px !important;
+padding-bottom: 32px !important;
+  text-align: center !important;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+}
+#footer-para{
+  font-size:9.5px;
+  color: #000 !important;
+  font-family: "Times New Roman", Georgia, Serif;
+}

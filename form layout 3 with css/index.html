@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form layout 3 with css</title>
+	<link type='text/css' rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<div id='wrapper'>
+		<form id='survey-form'>
+			
+				<h1 id='title'>Application For Permission To Date My Daughter</h1><br>
+				<strong>Note:</strong><p id='description'>Form is to be completed ar least 21 days prior to date</p>
+				<fieldset>
+					<legend><strong>Personal Details</strong></legend>
+					<div>
+						name:<br><input type='text' name='username' placeholder='Enter name here'>
+					</div>
+					<div>
+						Address:<br><input type='text' id='name' name='Address' placeholder='Enter your address here'>
+					</div>
+					<div>
+						Email:<br><input type='email' name='Email-id' placeholder='Enter your email here'>
+					</div>
+					<div>
+						Phone Number:<br><input type='tel' name='mobile_number' id='number' placeholder='Enter 10 digit number'>
+					</div>	
+					
+					<div>
+						IQ:<br><input type='text' id='iq' name='iq' placeholder='Enter IQ here'>
+					</div>		
+					
+					<div>
+						Gender:<br><input type='radio' name='gender' value='male'>male<br>
+							<input type='radio' name='gender' value='female' checked>female<br>
+							<input type='radio' name='gender' value='other'>other
+					</div>					
+						Date of Proposed Outing:<br><input type='date' name='date_of_proposed_outing'>
+				</fieldset>
+				<fieldset>
+					<div>	Check All That Apply:<br>
+						<input type='checkbox' name='' value='I Have tattoos and/piercing '>I Have tattoos and/piercing<br> 
+						<input type='checkbox' name='' value='i am more than 2 years older than my daughter'>i am more than 2 years older than my daughter<br>
+						<input type='checkbox' name='' value='i own a panel van or V8 ute'>i own a panel van or V8 ute<br>
+						<input type='checkbox' name='' value='i work full-time ' checked>i work full-time <br>
+						<input type='checkbox' name='' value='my parents are rich ' checked>my parents are rich<br> 
+						<input type='checkbox' name='' value='is the date at a well lit public locations' checked>is the date at a well lit public locations<br>
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						Political Persuasion:<br>
+						<select id='dropbox'>
+							<option name='political_persuasion' value='Left Wing'>Left Wing
+							<option name='political_persuasion' value='right Wing' selected>right Wing
+							<option name='political_persuasion' value='Conservative'>Conservative
+							<option name='political_persuasion' value='Nazi'>Nazi
+						</select><br>
+						Education Level Completed:
+						<select id='dropbox2'>
+							<option name='edu_level' value='University'>University
+							<option name='edu_level' value='College' selected>College
+							<option name='edu_level' value='High School'>High School
+							<option name='edu_level' value='None'>None
+						</select><br>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend><b>Eassay Section</b></legend>
+					<p>In 50 words or more explain why you want to date my daughter</p></br>
+					<textarea name='explain_essay' placeholder='Enter Text Here'></textarea><br>
+					<p>Please upload contact details for 2 references</p><br>
+					<textarea name='2_ref' placeholder='Enter Text Here'></textarea><br>
+					<p>Upload Police Clearence Certificate ,Bank Statement and Medical Certificates here:</p><br>
+					<button>Attach files</button>
+				</fieldset>
+					<div id='submitbutton'>
+						<input type='submit' id='submit' value='Send Your Application'>
+			
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/*author name sohan paliyal servey form 2*/
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+    background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.8 ),
+    rgba(136,136,206,0.7)
+    ),
+    url(assets/img/background.jpg ) ;
+ text-align: center;   
+}
+
+h1{
+  margin-bottom: 20px;
+ color: white;
+  font-weight: 400;
+  line-height: 1.2;
+}
+h2{
+  margin: 20px;
+  color: white;
+}
+form{
+  background-color:#00001a; 
+  width: 90%;
+    margin: 60px;
+}
+.labels{
+  color: white;
+  text-align: left;
+  font-size: 1.125rem;
+  margin-left: 20px; 
+  
+  }
+
+.textboxes{
+  width: 96%;
+  
+  height: 2.375rem;
+  display: block;
+  margin: 20px;
+}
+.radiobutton{
+text-align: left
+}
+
+#checkboxheading{
+color: white;
+  text-align: left;
+  margin: 20px;
+  height: 40px;
+}
+.checkbox{
+ 
+}
+textarea{
+  width: 96%;
+  
+  height: 4.375rem;
+  display: block;
+  margin: 20px;
+
+}
+
+#button{
+  background-color:#00e68a;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px
+   
+  
+  
+}

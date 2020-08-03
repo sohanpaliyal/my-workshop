@@ -1,0 +1,211 @@
+/*author name-sohan paliyal and this is w3school 6th layout*/
+*{
+margin:0px;
+padding:0px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Karma", sans-serif;
+    line-height: 1.5;
+}
+#wrapper{}
+#nav-bar::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#nav-bar{
+  max-width:80%;
+  margin:auto;
+  font-size:22px;
+}
+.navs1{
+  float: left;
+ text-align: center;
+}
+
+.w3-padding-16{
+  padding-top:16px!important;
+  padding-bottom:16px!important; 
+}
+.navs2{
+  float:right;
+}
+.navs3{
+  text-align: center;
+	width: auto;
+}
+.food-menu-container::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.food-menu-container{
+  width:77%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 16px !important;
+padding-bottom: 16px !important;
+}
+.food-menu{
+  width:25%;  
+  box-sizing: border-box;
+  float:left;
+  padding: 0 8px;
+  text-align: center !important;
+}
+.food-menu-photo{
+  width:100%;
+}
+.food-menu-heading{
+  font-weight: 400;
+margin: 10px 0;
+  font-size: 22px;
+}
+.food-menu-para{
+  font-size:13.7px;
+}
+.food-menu-para2{
+  margin:15px 0;
+  font-size:13.7px;
+}
+.page-numbers-container{
+  margin-left:auto;
+  margin-right:auto;
+  width:77%;
+  text-align:center;
+  padding-top: 32px !important;
+padding-bottom: 32px !important;
+}
+.page-numbers:hover{
+  background-color:#000!important;
+  color:#fff!important;
+}
+.page-numbers:nth-child(2){
+  background-color:#000!important;
+  color:#fff!important;
+}
+.page-numbers:nth-child(2):hover{
+ color: #000 !important;
+background-color: #ccc !important;
+}
+.page-numbers{
+  padding: 8px 16px;
+  display: inline-block;
+}
+#hr-line{
+  border: 0;
+  border-top: 1px solid #eee;
+margin: 20px 0;
+}
+#food-man-profile-div{
+  margin-left:auto;
+  margin-right:auto;
+  width:77%;
+  text-align:center;
+}
+.food-man-heading{
+  margin: 10px 0;
+  font-size: 22px; 
+  font-weight: 400;
+}
+.food-man-photo{
+  max-width: 100%;
+height: auto;
+display: block;
+margin: auto;
+  width:800;
+}
+
+#food-man-intro-div-after-photo{
+      padding-top: 32px !important;
+    padding-bottom: 32px !important;
+
+}
+.imwhoiam-heading2{
+  font-weight: 400;
+margin: 10px 0;
+  font-size:20px;
+  }
+.withpassion-for-real-heading-3{
+  font-weight: 400;
+margin: 10px 0;
+  font-size: 14px;
+}
+#food-man-intro-para{
+  text-align: center !important;
+  font-size:14px;
+}
+hr{
+  border-top: 1px solid #eee;
+margin: 20px 0;
+  border: 0;
+}
+footer::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+footer{
+  margin-left:auto;
+  margin-right:auto;
+  width:77%;
+}
+.footer-container{
+  float:left;
+  width:33.33%;
+  padding: 0 8px;
+ box-sizing: border-box;
+}
+.footer-heading{
+  font-weight: 400;
+margin: 10px 0;
+font-size:24px;
+}
+#footer-para1{
+  font-size:14px;
+}
+#footer-para2{
+   font-size:14px;
+  padding:12px 0;
+}
+.list-items-of-blog-posts:hover {
+    background-color: #ccc;
+}
+.list-items-of-blog-posts{
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  
+}
+.blog-post-photos{
+  width:50px;
+  float: left !important;
+  margin-right: 16px !important;
+}
+.blog-post-span1{
+  font-size:18px;
+}
+.blog-post-span2{
+  font-size:14px
+}
+.popular-posts-span1{
+  color: #fff !important;
+background-color: #000 !important;
+  display: inline-block;
+padding-left: 6px;
+padding-right: 6px;
+text-align: center;
+margin-bottom: 16px !important;
+   font-size: 14px !important;
+  font-family: serif;
+}
+.popular-posts-spans{
+  color: #fff !important;
+background-color: #616161 !important;
+  margin-bottom: 16px !important;
+  font-size: 11px !important;
+  display: inline-block;
+padding-left: 6px;
+padding-right: 6px;
+text-align: center;
+  font-family: serif;
+}

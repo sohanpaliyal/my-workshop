@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form layout 2</title>
+</head>
+<body>
+	<form>
+		<table width='100%' cellpadding='10px' border='1px'>
+			<tr>
+				<td colspan='2'>(*)Required Fields</td>
+			</tr>
+			<tr>
+				<td>Account Type*</td>
+				<td><input type='radio' name='accounttype' value='Personal Account' checked>Personal Account
+				<input type='radio' name='accounttype' value='Bussiness Account'>Bussiness Account
+				</td>
+			</tr>
+			<tr>
+				<td>First Name*</td>
+				<td><input type='text' name='Firstname' size='35'></td>
+			</tr>
+			<tr>
+				<td>Last Name*</td>
+				<td><input type='text' name='lastname' size='35'></td>
+			</tr>
+			<tr>
+				<td>Country/Region*</td>
+				<td>
+					<select name='country'>
+						<option value='africa'>Africa
+						<option value='china'>China
+						<option value='india' selected>India
+						<option value='us'>United States
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Street Address*</td>
+				<td><input type='text' name='streetaddress*' size='35'></td>
+			</tr>
+			<tr>
+				<td>Street Address 2</td>
+				<td><input type='text' name='streetaddress2' size='35'></td>
+			</tr>
+			<tr>
+				<td>state/Province*</td>
+				<td>
+					<select name='state'>
+						<option value='china'>China
+						<option value='select state or province' selected>Select State or Province
+						<option value='india'>India
+						<option value='us'>United States
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Zip/Postal Code*</td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr><td></td><td>Only used for questions related to your order</td></tr>
+			<tr>
+				<td>Phone Number*</td>
+				<td><input type='tel' name='mobilenumber'></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+
+</html>
