@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform Translate Function</title>
+	<style type="text/css">
+		.main{
+			width: 300px;
+			height: 300px;
+			box-shadow: 0px 0px 5px grey;
+			margin:50px; 
+			transition: 2s;
+			position: relative;
+		}	
+		.main img{
+			position: absolute;
+			transition: 2s;
+			box-shadow: 0px 0px 5px grey;
+		}
+		.main:hover #img1{
+			transform: translateX(305px);
+		}
+		.main:hover #img2{
+			transform: translateX(610px);
+		}
+		.main:hover #img3{
+			transform: translateX(915px);
+		}
+		.main:hover #img4{
+			transform: translateX(0px);
+		}
+		.main2{
+			width: 300px;
+			height: 300px;
+			box-shadow: 0px 0px 5px grey;
+			margin:50px; 
+			transition: 2s;
+			position: relative;
+		}
+		.main2 img{
+			position: absolute;
+			transition: 2s;
+			box-shadow: 0px 0px 5px grey;
+		}
+		.main2:hover #img5{
+			transform: translate(305px,0px);
+		}
+		.main2:hover #img6{
+			transform: translate(305px,305px);
+		}
+		.main2:hover #img7{
+			transform: translate(0px,305px);
+		}
+		.main2:hover #img8{
+			transform: translate (0px);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img1">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img2">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img3">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img4">
+	</div>
+	<div class="main2">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img5">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img6">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img7">
+		<img src="AndroidDevelopment01.png" width="100%" height="100%" id="img8">
+	</div>
+</body>
+</html>

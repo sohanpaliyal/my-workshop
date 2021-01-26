@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	scroll-padding-top: 50px;
+}
+
+body{
+	margin-top: 50px;;
+}
+header{
+	position: fixed;
+	z-index: 1;
+}
+.main-nav{
+    background-color: #000!important;
+    /*min-height: 40px;*/
+    max-width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.nav_list li{
+	/*margin-left: 30px;*/
+	padding: 0px 10px;
+	width: 90px;
+	text-align: center;
+}
+.nav_list li a{
+	color: #fff!important;
+}
+.nav_list li:hover{
+	color: #fff!important;
+    background-color: #ccc!important;
+}
+.nav-dropdown a{
+	width: 80px;
+}
+.dark-bg{
+	background-color:#000!important;
+	color: 	#fff; 	
+}
+.tour-dates-heading{
+	letter-spacing: 4px;
+	margin-top: 10px;
+}
+.padd-64{
+	padding: 64px 0px;
+}
+.book-tckts-list li{
+		border-bottom:1px solid ;
+		padding: 10px 0px;
+		padding-left:15px; 
+		list-style-type: none;
+}
+.book-tckts-list li span{
+	margin-left: 10px;
+	padding: 2px 4px;
+	color:#fff;
+}
+.footer-img img{
+	width: 100%;
+}
+.footer-img{
+	padding: 0px;
+}
+footer{
+	font-size: 18px;
+}
+footer i:hover{
+	opacity: 0.60;
+
+}

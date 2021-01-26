@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<style type="text/css">
+		.container{
+			width: 1000px;
+			height: 600px;
+			border: 2px solid black;
+			margin:auto;
+		}
+		.box{
+			width: 200px;
+			height: 100px;
+			transform: translateX(0);
+			animation: moving 10s ;
+		}
+		@keyframes moving{
+			form{
+				transform: translateX(0);
+			}
+			to{
+				transform: translateX(800px);
+			}
+		}				
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box" style="animation-timing-function: ease;">
+			<img src="tenor.gif" width="100%" height="100%"/>
+		</div>
+		<div class="box" style="animation-timing-function: linear;">
+			<img src="tenor.gif" width="100%" height="100%" />
+		</div>
+		<div class="box" style="animation-timing-function: ease-in;">
+			<img src="tenor.gif" width="100%" height="100%"/>
+		</div>
+		<div class="box" style="animation-timing-function: ease-out;">
+			<img src="tenor.gif" width="100%" height="100%"/>
+		</div>
+		<div class="box" style="animation-timing-function: ease-in-out;">
+			<img src="tenor.gif" width="100%" height="100%"/>
+		</div>
+		<div class="box" style="animation-timing-function: cubic-bezier(100px,200px,300px,400px);">
+			<img src="tenor.gif" width="100%" height="100%"/>
+		</div>
+	</div>
+</body>
+</html>

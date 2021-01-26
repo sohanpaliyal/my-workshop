@@ -1,63 +1,210 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>w3schools 1st layout</title>
-	<link type='text/css' rel='stylesheet' href='assets/css/style.css'>
+	<title>The band layout responsive</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body>
-	<div >
-		<div id='nav-bar'>
-			<div class='navs'>Home</div>
-			<div class='navs'>Band</div>
-			<div class='navs'>Tour</div>
-			<div class='navs'>Contact</div>
-			<div class='navs'>More</div>
-			<div class='navs'><div class='fa fa-search'></div></div>
-		</div>
-		<div class='w3-container' >
-			<img src='assets/img/la.jpg' align='center' width='100%'>
-			<div class='w3-center-bottom'>
-				<h3>Los Angeles</h3>
-				<b>An Atmosphere in New York is lorem ispem</b>
+	<main>
+		<!-- nav-bar starts here -->
+		<nav class="navbar navbar-expand-lg navbar-light main-nav fixed-top" id="home">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color:#ccc!important; background-color:#fff!important;">
+					<span class="navbar-toggler-icon" ></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto nav_list">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#band">BAND</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#tour">TOUR</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								MORE
+							</a>
+							<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#home">Merchandise</a>
+								<a class="dropdown-item" href="#home">Extras</a>
+								<a class="dropdown-item" href="#home">Media</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</div>	
+		</nav>
+		<!-- nav-bar starts here -->
+		<!-- crousel slide bar starts here -->
+		<div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="assets/img/1.jpg" alt="First slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>New York</h5>
+						<p>The atmosphere in New York is lorem ipsum.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="assets/img/2.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Los Angeles</h5>
+						<p>We had the best time playing at Venice Beach!</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="assets/img/2.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Chicago</h5>
+						<p>Thank you, Chicago - A night we won't forget.</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class='w3-container'>
-<div class='w3-center'>
-			<h2 id='the-band'>THE BAND</h2>
-			<p id='para-heading'>We Love Music</p>
-			<p id='para-summary'>We have created a fictional band website. 
-			Lorem ipsum dolor sit amet, consectetur adipiscing 
-			elit, sed do eiusmod tempor incididunt ut labore et dolore
-			 magna aliqua. Ut enim ad minim veniam, quis nostrud 
-			exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-			consequat. Duis aute irure dolor in reprehenderit in voluptate
-		 	velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-			occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-			mollit anim id est laborum consectetur adipiscing elit, sed do 
-			eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-			laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<div id='band-members'><p class='name-of-artist'>Name</p><img src='assets/img/bandmember.jpg'
-			 title='sohanpaliyal' class='member-photo'></div>
-			<div id='band-members'><p class='name-of-artist'>Name</p><img src='assets/img/bandmember.jpg'
-			 title='sohanpaliyal' class='member-photo'></div>
-			<div id='band-members'><p class='name-of-artist'>Name</p><img src='assets/img/bandmember.jpg'
-			 title='sohanpaliyal' class='member-photo'></div>
-</div>
+		<!-- crousel slide bar ends here -->
+		<!-- the band contianer -->
+		<div class="container text-center my-5" id="band">
+			<h1 class="pt-5">The Band</h1>
+			<p class=""><i>We Love Music</i></p>
+			<p class="text-justify">
+				We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
 		</div>
-		<div class='w3-container'>
-			<div id='tour-dates-inner-container' class='w3-center'>
-				<h2 id='tour-dates'>TOUR DATES</h2>
-				<i>Remember to book your tickets!</i></br>
-				<ul id='listof-ticket'> 
-					<li class='listof-ticket-months'>September<span></span></li>
-					<li class='listof-ticket-months'>October<span></span></li>
-					<li class='listof-ticket-months'>November</li>
+		<div class="container">
+			<div class="row my-5">	
+				<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">		
+					<div style="width: 15rem;">
+						<div>
+							<h5 class="text-center pt-2">Name</h5>
+						</div>
+						<img class="img-fluid rounded" src="assets/img/card.jpg" alt="image cap">
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">		
+					<div style="width: 15rem;">
+						<div>
+							<h5 class="text-center pt-2">Name</h5>
+						</div>
+						<img class="img-fluid rounded" src="assets/img/card.jpg" alt="image cap">
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">		
+					<div style="width: 15rem;">
+						<div>
+							<h5 class="text-center pt-2">Name</h5>
+						</div>
+						<img class="img-fluid rounded" src="assets/img/card.jpg" alt="image cap">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid dark-bg" id="tour">	
+			<div class="container padd-64">
+				<h2 class="text-center tour-dates-heading">TOUR DATES</h2>
+				<p class="text-center text-secondary"><i>Remember to book your tickets!</i></p>
+				<ul class="bg-white text-dark book-tckts-list">
+					<li class="">September<span class="bg-danger">Sold out</span></li>
+					<li>October<span class="bg-danger">Sold out</span></li>
+					<li>November <span class="float-right bg-dark mr-5 px-2 rounded-circle">3</span></li>
 				</ul>
-			</div>
-		
+				<div class="row text-dark padd-64">
+					<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center name-cards">
+						<div class="card" style="width: 15rem;">
+							<img class="card-img-top" src="assets/img/ny.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">New York</h5>
+								<p class="text-dark">Fri 27 Nov 2016</p>
+								<p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+								<a href="#" class="btn btn-dark">Buy Tickets</a>
+							</div>
+						</div>
+					</div>		
+					<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center name-cards">
+						<div class="card" style="width: 15rem;">
+							<img class="card-img-top" src="assets/img/paris.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Paris</h5>
+								<p class="text-dark">Sat 28 Nov 2016</p>
+								<p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+								<a href="#" class="btn btn-dark">Buy Tickets</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center name-cards">
+						<div class="card" style="width: 15rem;">
+							<img class="card-img-top" src="assets/img/sanfran.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">San Fransico</h5>
+								<p class="text-dark">Sun 29 Nov 2016</p>
+								<p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+								<a href="#" class="btn btn-dark">Buy Tickets</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</div>
-	</div>
+		<div class="container fluid " id="contact">	
+			<div class="container padd-64">
+				<h2 class="text-center tour-dates-heading">Contact</h2>
+				<p class="text-center text-secondary"><i>Fan? Drop a note!</i></p>
+				<div class="row my-5 d-flex justify-content-center">
+					<div class="col-lg-4 col-md-6">
+						<i class="fa fa-map-marker">	</i> Chicago, US <br/>
+						<i class="fa fa-phone">	</i> Phone: +00 151515 <br/>
+						<i class="fa fa-envelope"></i>  Email: mail@mail.com <br/>	
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<form>
+							<div class="row">
+								<div class="col p-0">
+									<input type="text" class="form-control" placeholder="First name" aria-label="First name">
+								</div>
+								<div class="col p-0 pl-1">
+									<input type="text" class="form-control" placeholder="Email" aria-label="email">
+								</div>
+								<input type="text" class="form-control mt-3" placeholder="message" aria-label="Message">
+							</div>
+							<div>
+								<span type="btn" class="btn btn-dark float-right my-3">SEND</span>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="container-fluid footer-img">
+			<img src="assets/img/map.jpg" class="img-fluid">
+		</div>			
+		<footer class="container padd-64 text-center text-dark ">
+			<i class="fa fa-facebook-official"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-snapchat"></i>
+			<i class="fa fa-pinterest-p"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-linkedin"></i>
+			<p>Powered By techpaliyal</p>
+		</footer>
+	</main>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.js"></script> 
 </body>
 </html>

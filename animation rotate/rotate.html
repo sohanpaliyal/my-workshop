@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rotate Function of transform property</title>
+	<style type="text/css">
+		.main{
+			float: left;
+			width: 300px;
+			height: 300px;
+			box-shadow: 0px 0px 5px grey;
+			margin:50px; 
+			transition: 2s;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.main img{
+			transition: 2s;
+			box-shadow: 0px 0px 5px grey;
+		}
+		.main:hover img{
+			transform: rotate(360deg);
+		}
+		.main1{
+			width: 300px;
+			height: 300px;
+			box-shadow: 0px 0px 5px grey;
+			margin:50px; 
+			float: left;
+			transition: 2s;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.main1 img{
+			transition: 2s;
+			box-shadow: 0px 0px 5px grey;
+		}
+		.main1:hover img{
+			transform: rotateX(360deg);
+		}
+		.main2{
+			width: 300px;
+			height: 300px;
+			box-shadow: 0px 0px 5px grey;
+			margin:50px; 
+			float: left;
+			transition: 2s;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.main2 img{
+			transition: 2s;
+			box-shadow: 0px 0px 5px grey;
+		}
+		.main2:hover img{
+			transform: rotateY(360deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<img src="AndroidDevelopment01.png" width="300" height="300">
+	</div>
+	<div class="main1">
+		<img src="AndroidDevelopment01.png" width="300" height="300">
+	</div>
+	<div class="main2">
+		<img src="AndroidDevelopment01.png" width="300" height="300">
+	</div>
+</body>
+</html>

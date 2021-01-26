@@ -1,0 +1,227 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin:0px;
+	padding: 0px; 
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+body{
+	font-family: arial;
+	background: url(../images/waves_.jpg) no-repeat top center fixed;
+}
+.main{
+	width: 1000px;
+	/*height: 1000px;*/
+	margin:0px auto;
+	box-shadow: 0px 0px 30px #0f0f0f;
+}
+#section-1{
+	width: 100%;
+	height: 660px;
+	border-bottom: 10px solid aqua;
+	background: url(../images/headerbg.jpg)10% 0 no-repeat fixed;
+	background-size: cover;
+}
+.pattern{
+	width: 100%;
+	height: 100%;
+	/*border-bottom: 2px solid #0f0f0f;*/
+	background: url(../images/gridtile.png) repeat;	
+}
+.logo{
+	width: 300px;
+	margin:0px auto;
+	padding-top: 30px;
+	/*border: 2px solid yellow; */
+}
+.headline-div{
+	margin: 95px auto;
+	width: 400px;
+	padding:25px 0px 25px 0px; 
+	border-top:1px solid aqua;
+	border-bottom:1px solid aqua; 
+}
+.headline-div h2{
+	color: #fff;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 36px;
+	text-align: center;
+}
+nav{
+	width: 75%;
+    margin: 185px auto 0px auto;
+    /*margin-top: 138px;*/
+    /*border: solid 2px yellow;*/
+}
+nav ul{
+	color:#fff;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	border-right: 2px solid #fff;
+	height: 30px;
+	width: 19%;
+	font-size: 20px;
+	text-align: center;
+	/*padding: 10px 30px 0px 30px;*/
+
+}
+nav ul li:last-child{
+	border: none!important;
+}
+#section-2{
+	width: 100%;
+	height: 920px;
+	background-color: #fff;
+}
+.pattern-2{
+	background: url(../images/3.jpg)center center no-repeat fixed;
+	background-size: 80% auto;
+	width: 100%;
+	height: 320px;
+}
+.overlay{
+	width: 100%;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    padding-top: 140px;
+    /*z-index: 1;*/
+}	
+.home-bttn-div{
+	margin: 0px auto;
+    height: 35px;
+    border: #FFF 8px solid;
+    width: 150px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+.after-overlay-container{
+	width: 98%;
+    font-family: arial;
+    font-size: 17px;
+    color: #182D55;
+    text-align: center;
+    margin: 0px auto;
+    padding: 60px 10px;
+    background: #FFF;
+    line-height: 30px;
+}
+.after-queries-or-to-request-a-quote-contianer{
+	cursor: pointer;
+}
+.sectionfan-3-hexagon-container{
+	width: 220px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.back-to-top-div{
+	width: 100%;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-family: arial;
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+    /*line-height: 55px;*/
+    cursor: pointer;
+}
+#section-3{
+	width: 100%;
+	height: 920px;
+	background-color: #fff;
+}
+.pattern-3{
+	background: url(../images/1.jpg)center center no-repeat fixed;
+	background-size: 80% auto;
+	width: 100%;
+	height: 320px;
+}
+#section-4{
+	width: 100%;
+	height: 920px;
+	background-color: #fff;
+}
+.pattern-4{
+	background: url(../images/2.jpg)center center no-repeat fixed;
+	background-size: 80% auto;
+	width: 100%;
+	height: 320px;
+}
+#section-5{
+	width: 100%;
+	height: 920px;
+	background-color: #fff;
+}
+.pattern-5{
+	background: url(../images/banner-7.jpg)center center no-repeat fixed;
+	background-size: 80% auto;
+	width: 100%;
+	height: 320px;
+}
+#section-6{
+	width: 100%;
+	background-color: #fff;
+}
+.pattern-6{
+	background: url(../images/4.jpg)center center no-repeat fixed;
+	background-size: 80% auto;
+	width: 100%;
+	height: 320px;
+}
+.contact-us-top{
+	width: 100%;
+    background: rgba(0,0,0,0.6);
+    margin: 0px auto;
+    padding-bottom: 20px;
+    font-family: arial;
+    font-size: 26px;
+    color: #FFF;
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+    /*border: solid 2px yellow;*/
+}
+.powered{
+	font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+    font-family: arial;
+    line-height: 0px;
+}
+.contact-details-container{
+	width: 100%;
+    margin: 0px auto;
+    padding-top: 30px;
+    font-family: arial;
+    font-size: 26px;
+    color: #182D55;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: #273b60 2px solid;
+    background: #FFF;
+}
+.contact-details{
+	font-size: 34px;
+}
+.below-contact-details-div{
+	line-height: 30px !important;
+    font-size: 20px;
+}
+.country{
+	font-size: 24px;
+}
+.contact-us-request{
+	line-height: 30px !important;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
